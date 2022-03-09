@@ -74,7 +74,7 @@ fct <- function(x,
 
 # Whitespace
 
-Always add at least one whitespace before and and one whitespace after an operator, except for `^` and similar operators
+Always add at least one whitespace before an operator and one whitespace after an operator, except for `^` and similar operators
 
 ```
 3 + 2
