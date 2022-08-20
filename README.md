@@ -33,9 +33,13 @@ unless it is really, really natural to do so.
 this_is_a_long_name <- c("a", "b", "c")
 ```
 
+NOTE: Actually, the reason is for quick double-click selection. With dots, editors I use do not treat
+the whole name as one word. It is quite inconvenient to me.
+
 ## Length
 
-Long names are OK with me. It is more important to know quickly what a variable is than to type less.
+Long names are OK with me. My memory is not goot. It is more important to know quickly what
+a variable is than to type less.
 
 # Strings
 
@@ -56,6 +60,8 @@ fct <- function(x) {
   }
 ```
 
+NOTE: The reason is the shorter line length I prefer.
+
 # Align in a readable way
 
 That is ... align in anyway I want.
@@ -68,11 +74,13 @@ fct <- function(x,
   }
 ```
 
+NOTE: Again, the reaons is the shorter line length I prefer.
+
 # Line Length
 
 70 for code. I sometimes work on a small screen. For comments, 70 if possible but it is not a must.
 
-40(!) for documentation and similar text. I sometimes edit files on my mobile phone using GitHub.
+40(!) for documentation and similar content. I sometimes edit files on my mobile phone using GitHub.
 The screen is small and no auto-wordwrap. Therefore, I started trying to use 40.
 
 # Whitespace
