@@ -95,7 +95,8 @@ candd <- 3
 
 # Indendation within brackets and parentheses
 
-Indent the lines within a pair of brackets or parenthese.
+Indent the lines within a pair of brackets or parenthese. This is not the common style in R but I prefer this one as it makes
+the block easier to read, as in Python.
 
 ```
 fct <- function(
