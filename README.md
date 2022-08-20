@@ -72,6 +72,9 @@ fct <- function(x,
 
 70 for code. I sometimes work on a small screen. For comments, 70 if possible but it is not a must.
 
+40(!) for documentation and similar text. I sometimes edit files on my mobile phone using GitHub.
+The screen is small and no auto-wordwrap. Therefore, I started trying to use 40.
+
 # Whitespace
 
 Always add at least one whitespace before an operator and one whitespace after an operator, except for `^` and similar operators
