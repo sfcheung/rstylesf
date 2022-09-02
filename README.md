@@ -132,7 +132,7 @@ and the line width is very very
 irregular.
 ```
 
-GitHub monitor changes line-by-line. Reformatting (rewrapping) a paragraph
+GitHub monitors changes line-by-line. Reformatting (rewrapping) a paragraph
 will result in changes in many lines, even when the actual change is on
 one word in one sentence. Reformatting makes me difficult know what changed.
 Paragrpah like the one aboe is not that difficult to read, especaily
