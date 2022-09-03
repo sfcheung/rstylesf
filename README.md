@@ -4,9 +4,10 @@ My (SF) own coding style for R, to help me collaborate with past-me and future-m
 
 # Preamble
 
-Adapted for my own situation, such as the devices I usually use, the screen size, the package I usually use,
+Adapted for my own situation, such as the devices I usually use, the screen size, the packages I usually use,
 and my not-so-good memory. If possible, I try not to have a style that relies on packages not in the
-standard library, that is, packages not installed along with R. If it is good for me, it is good.
+standard library, that is, packages not installed along with R. When I decide whether to adopt
+style, my only concern is whether it is good for me.
 
 # General Principles
 
