@@ -1,6 +1,6 @@
 # rstylesf
 
-My (SF) own coding style for R, to help me collaborate with past-me and future-me.
+My (SF) own coding style for R, helps me collaborate with past-me and future-me.
 
 # Preamble
 
@@ -34,7 +34,7 @@ unless it is really, really natural to do so.
 this_is_a_long_name <- c("a", "b", "c")
 ```
 
-NOTE: Actually, the reason is for quick double-click selection. With dots, editors I use do not treat
+NOTE: Actually, the reason is for quick double-click selection. With dots, the editors I use do not treat
 the whole name as one word. It is quite inconvenient to me.
 
 ## Length
@@ -61,11 +61,19 @@ fct <- function(x) {
   }
 ```
 
+or
+
+```r
+fct <- function(x) {
+  x^2
+}
+```
+
 NOTE: The reason is the shorter line length I prefer.
 
 # Align in a readable way
 
-That is ... align in anyway I want.
+That is, align in any way I want.
 
 ```r
 fct <- function(x,
@@ -75,6 +83,16 @@ fct <- function(x,
   }
 ```
 
+or
+
+```r
+fct <- function(x,
+                y1, y2,
+                z) {
+  x + y1 + y2 + z
+}
+```
+
 NOTE: Again, the reason is the shorter line length I prefer.
 
 # Line Length
@@ -82,7 +100,7 @@ NOTE: Again, the reason is the shorter line length I prefer.
 70 for code. I sometimes work on a small screen. For comments, 70 if possible but it is not a must.
 
 40(!) for documentation and similar content. I sometimes edit files on my mobile phone using GitHub.
-The screen is small and no auto-word-wrap. Therefore, I started trying to use 40.
+The screen is small and has no auto-word-wrap. Therefore, I started trying to use 40.
 
 # Whitespace
 
@@ -104,8 +122,7 @@ candd <- 3
 
 # Indendation within brackets and parentheses
 
-Indent the lines within a pair of brackets or parentheses. This is not the common style in R but I prefer this one as it makes
-the block easier to read, as in Python.
+Indent the lines within a pair of brackets or parentheses:
 
 ```r
 fct <- function(
@@ -115,10 +132,26 @@ fct <- function(
   ) {
     x + y1 + y2 + z
   }
-
 ```
 
-NOTE: This example aligns the same code from above in a different way, to illustrate that I do allow inconsistency in the style myself.
+or
+
+```r
+fct <- function(
+  x,
+  y1, y2,
+  z
+) {
+  x + y1 + y2 + z
+}
+```
+
+NOTE: This example aligns the same code from above in a different way, to illustrate that I allow inconsistency in the style myself.
+
+NOTE: I now resort to the more popular C-style indentation for new code,
+though I may keep the Python-style indentation for old code for consistency.
+I now have more and more work in collaboration with others and it may be better
+to follow the norm in this regard.
 
 # Word Wrap
 
@@ -134,7 +167,7 @@ For documentation, I am totally OK with something like this:
 ```
 
 GitHub monitors changes line-by-line. Reformatting (rewrapping) a paragraph
-will result in changes in many lines, even when the actual change is on
-one word in one sentence. Reformatting makes me difficult know what changed.
+will result in changes in many lines, even when the actual change is in
+one word in one sentence. Reformatting makes it difficult to know what changed.
 Paragraphs like the one above are not that difficult to read, especially
 when I use a line width of about 40 words.
